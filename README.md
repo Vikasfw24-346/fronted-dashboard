@@ -1,16 +1,52 @@
-# React + Vite
+# 📊 Visualization Dashboard (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the Visualization Dashboard project, built using **React.js**.  
+The application displays insights using interactive charts and filters, providing a clean and user-friendly UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- ⚛️ **React.js**
+- 🎨 **Tailwind CSS**
+- 📈 **Chart.js / Recharts**
+- 🔗 **Axios** (API calls)
+- 🌐 **Vite** (Fast build tool)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+## for connecting backend requires: VITE_API_URL=http://localhost:4000
 
-## Expanding the ESLint configuration
+## .gitignore: logs .log npm-debug.log yarn-debug.log* yarn-error.log* pnpm-debug.log* learn-debug.log*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+node_modules dist dist-ssr #.local
+
+#Editor directories and files .vscode/ .idea/ *.suo .ntvs *.njsproj *.sln *.sw? .env
+
+
+## 📂 Project Structure
+
+
+frontend/
+├── src/
+│ ├── components/
+│ │ ├── charts/
+│ │ ├── Filters.jsx
+│ │ └── Cards.jsx
+│ ├── services/
+│ │ └── api.js
+│ ├── pages/
+│ ├── App.jsx
+│ └── main.jsx
+├── public/
+├── index.html
+├── package.json
+└── README.md
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
