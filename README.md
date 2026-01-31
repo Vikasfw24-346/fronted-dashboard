@@ -9,19 +9,15 @@ The application displays insights using interactive charts and filters, providin
 
 - ⚛️ **React.js**
 - 🎨 **Tailwind CSS**
-- 📈 **Chart.js / Recharts**
+- 📈 ** D3.js ** (For charts or visualizations)
 - 🔗 **Axios** (API calls)
 - 🌐 **Vite** (Fast build tool)
+## react-dom
 
 ---
 ## for connecting backend requires: VITE_API_URL=http://localhost:4000
 
-## .gitignore: logs .log npm-debug.log yarn-debug.log* yarn-error.log* pnpm-debug.log* learn-debug.log*
-
-node_modules dist dist-ssr #.local
-
-#Editor directories and files .vscode/ .idea/ *.suo .ntvs *.njsproj *.sln *.sw? .env
-
+## For Run applications command is : npm run dev
 
 ## 📂 Project Structure
 
@@ -42,11 +38,13 @@ frontend/
 ├── package.json
 └── README.md
 
+## Deployment
+## Frontend (Vercel):
+## https://fronted-dashboard.vercel.app/
+The frontend is successfully deployed on Vercel and is fully functional. It is properly connected to
+the backend APIs and demonstrates all required features of the assignment.
 
----
-
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
+## Frontend (Render):
+## https://fronted-dashboard.onrender.com
+An additional deployment of the frontend is available on Render, ensuring availability across
+multiple hosting platforms.
